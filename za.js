@@ -17,7 +17,7 @@ client.on('ready', () => {
 	
 });
 	
-            var prefix = "w" ;
+            var prefix = "0" ;
 	
 	
 	/*
