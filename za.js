@@ -47,7 +47,7 @@ client.on('message', async msg => { // eslint-disable-line
 	if (!msg.content.startsWith(prefix)) return undefined;
 	const args = msg.content.split(' ');
 	const searchString = args.slice(1).join(' ');
-	//by ,$ ReBeL ء , ??#4777 'CODES SERVER'
+	//by ,$ ReBeL ء , ??#4777 'CODES SERVER' 
 	const url = args[1] ? args[1].replace(/<(.+)>/g, '$1') : '';
 	const serverQueue = queue.get(msg.guild.id);
 //by ,$ ReBeL ء , ??#4777 'CODES SERVER'
