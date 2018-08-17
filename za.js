@@ -13,7 +13,7 @@ client.on('ready', () => {
   console.log(' Za Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type aahelp",{type: 'WATCHING'})
+    client.user.setActivity(" Looking At Her Eyes 👀❤️",{type: 'PLAYING'})
 	
 });
 	
