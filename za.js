@@ -13,11 +13,11 @@ client.on('ready', () => {
   console.log(' Za Bot Is Online')
   console.log('---------------')
   client.user.setStatus("Online")
-    client.user.setActivity(" Type #help",{type: 'WATCHING'})
+    client.user.setActivity(" Type aahelp",{type: 'WATCHING'})
 	
 });
 	
-            var prefix = "#" ;
+            var prefix = "aa" ;
 	
 	
 	/*
@@ -31,7 +31,7 @@ npm install queue
 */
 client.on('message', msg => {
 
-    if (msg.content == '#play') {
+    if (msg.content == 'aaplay') {
         if (msg.member.voiceChannel) {
 
      if (msg.member.voiceChannel.joinable) {
